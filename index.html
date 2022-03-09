@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Machine Learning Introduction</title>
+  <meta charset="utf-8">
+  <style>
+    .left-column {
+      width: 50%;
+      float: left;
+    }
+
+    .right-column {
+      width: 50%;
+      float: right;
+    }
+
+    .grey {
+      color: #bbbbbb;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="slides.css">
+</head>
+
+<body>
+  <textarea id="source">
+
+class: left, middle
+
+# The unreasonable effectiveness of CNNs
+
+- 19h: Welcome
+
+- 19h10: Intro to CNNs
+
+- 19h40: DigiFarm
+
+- 20h10: Visual intelligence in medicine and health, marine science, industry, energy, and earth observation
+
+---
+class: center, middle
+
+# The unreasonable effectiveness of CNNs(1)
+
+Christopher Coello, data shepherd
+
+(1) ref to [Karpathy's blog entry](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) from 2015
+
+[Slides avalaible online](https://github.com/ChrCoello/Slides-PARK-CNN)
+
+---
+# Path
+
+- Supervised Learning
+- Deep Learning
+- Convolutional Neural Networks (CNNs)
+
+.center[
+<img src="images/neural_network.svg" style="width: 500px;" />
+]
+
+---
+# Data and images
+
+.center[
+<img src="images/tractor_cl.jpg" style="height: 200px;" />
+<img src="images/tractor_gs.jpg" style="height: 200px;" />
+]
+
+- Greyscale image: $x = (x(1), x(2), ..., x(d))$ where $x(i)$ contains the intensity value of pixel $i$
+--
+
+- Color image: $x = (x(1), x(2), ..., x(d))$ where $x(i)$ contains the RGB values of pixel $i$
+--
+
+- This means that:
+  - for a 200x200 image, $d$=40k
+  - for a 512x512 image, $d$=262k
+  - for a 1920x1080 image, $d$=2M
+- **High dimensional** data ($x \in \mathbb{R}^d$)
+
+---
+# Supervised learning tasks
+
+.center[
+<img src="images/supervised_learning.png" style="width: 770px;" />
+]
+
+- **Classification**: estimate a class label $f(x)$ given $n$ known samples $(x\_i,y\_i=f(x\_i))\_{i\leq n}$
+--
+
+- Huge variability inside classes
+--
+
+- ** Find invariants **
+--
+
+- Other vision related tasks: regression, segmentation, object detection, etc....
+
+---
+# Typical ML system
+
+.center[
+<img src="images/cat_model_link_math.svg" style="width: 770px;" />
+]
+
+
+---
+# Linear Regression Models
+
+$$
+f(X) = \beta\_0 + \sum\_{j=1}^{p} \beta\_jX\_j
+$$
+
+Inputs ($X\_j$) can be tweaked :
+- log, square, square-root,...
+- basis expansions ($X\_2=X\_1^3$, $X\_3=X\_1 \times X\_2$ )
+- dummy coding of qualitative inputs (true/false, week, month)
+
+No matter the source of the $X\_j$ , the model is linear in the parameters.
+
+---
+# Typical ML system
+
+.center[
+<img src="images/cat_model_link_math_supervised.svg" style="width: 770px;" />
+]
+<br />
+### Finding model ($f$)
+- often called training
+- choosing $\beta\_i$ so that $f(X)$ and $Y$ are the same as often as possible
+
+---
+# Linear Regression Models
+.center[
+<img src="images/linear_regression.PNG" style="width: 570px;" />
+]
+
+---
+# Nearest Neighbour Model
+.center[
+<img src="images/near_neigh_1.PNG" style="width: 400px;" />
+]
+
+<small>_Use this description (model) in order to predict the output given a new set of explanatory variables_</small>
+---
+# Typical ML system
+
+.center[
+<img src="images/cat_model_link_math_supervised.svg" style="width: 770px;" />
+]
+<br />
+### Finding model ($f$)
+- often called training
+- choosing $\beta\_i$ so that $f(X)$ and $Y$ are the same as often as possible **BUT NOT QUITE**
+
+---
+# Nearest Neighbour Model
+.center[
+<img src="images/near_neigh_15.PNG" style="width: 570px;" />
+]
+
+---
+# Deep Learning system
+
+.center[
+<img src="images/image_dl_without_text.png" style="width: 700px;" />
+]
+<br />
+--
+.center[
+<img src="images/
+Sound_City_Setagaya_DSC_1931.jpg" style="width: 450px;" />
+]
+
+---
+# Deep Learning system
+
+.center[
+<img src="images/image_dl_without_text.png" style="width: 700px;" />
+]
+<br />
+
+.center[
+<img src="images/resnet_152.png" style="width: 450px;" />
+]
+.center[**Resnet-50** (#params: 1.7M)<br />
+<small>_Adapted from https://arxiv.org/abs/1512.03385_</small>]
+
+---
+# Choosing an ML algorithm
+
+Explore the relevant mappings between inputs and output(s)
+.center[ $X \implies f(X)$ ]<br />
+.center[
+<img src="images/all_models.png" style="width: 400px;" />
+]
+
+---
+class: middle, centers
+
+# Fundamental explanation of Deep Learning
+
+---
+# Artificial Neuron
+
+.center[
+<img src="images/artificial_neuron.svg" style="width: 400px;" /><br />
+McCulloch & Pitts (1943): inspiration from brain, but simplistic model with no will to be close to biology
+]
+--
+.center[
+<img src="images/Neuron_Hand-tuned.svg" style="width: 400px;" /><br />
+By <a href="https://en.wikipedia.org/wiki/User:Quasar_Jarosz" class="extiw"
+  title="wikipedia:User:Quasar Jarosz">Quasar Jarosz</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw"
+  title="wikipedia:">English Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0"
+  title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a
+  href="https://commons.wikimedia.org/w/index.php?curid=7616130">Link</a>
+]
+
+---
+# Artificial Neuron
+
+.center[
+<img src="images/artificial_neuron.svg" style="width: 400px;" />
+]
+
+.center[
+$z(\mathbf{x}) = \mathbf{w}^T \mathbf{x} + b$
+
+$f(\mathbf{x}) = g(\mathbf{w}^T \mathbf{x} + b)$
+]
+<br />
+
+<table>
+  <tr>
+    <th scope="col" align="right">$\mathbf{x}, f(\mathbf{x}) \,\,$</th>
+    <td>input and output</td>
+  </tr>
+  <tr>
+    <th scope="col" align="right">$z(\mathbf{x})\,\,$</th>
+    <td>pre-activation</td>
+  <tr>
+    <th scope="col" align="right">$\mathbf{w}, b\,\,$</th>
+    <td>weights and bias</td>
+  </tr>
+  <tr>
+    <th scope="col" align="right">$g\,\,$</th>
+    <td>activation function</td>
+  </tr>
+</table>
+
+---
+# Layer of Neurons
+
+.center[
+<img src="images/neural_network.svg" style="width: 400px;" />
+]
+
+<br />
+.center[
+$\mathbf{f}(\mathbf{x}) = g(\textbf{z(x)}) = g(\mathbf{W} \mathbf{x} + \mathbf{b})$
+]
+<br />
+- $\mathbf{W}, \mathbf{b}\,\,$ now matrix and vector
+
+---
+# Universal approximation theorem
+
+.center[
+<img src="images/neural_network.svg" style="width: 200px;" />
+]
+<br /><br />
+If you have big enough weight matrices and enough of them ($n$ and $k$ large), the above network can solve any
+arbitrarily complex mathematical function to any arbitrarily high level of accuracy...<br /> <br />
+--
+...assuming that you can **train the parameters** both in terms of **time** and **data availability** (
+<a target="_blank" rel="noopener noreferrer" href=https://en.wikipedia.org/wiki/Universal_approximation_theorem>
+  mathematical formulation</a> ).
+
+---
+# Key limitations
+
+...assuming that you can **train the parameters** both in terms of **time** and **data availability**
+
+- **train the parameters** $\rightarrow$ backpropagation, regularisation
+--
+
+- **time** $\rightarrow$ GPUs
+--
+
+- **data availability** $\rightarrow$ transfer learning
+
+.center[
+<img src="images/transfer_learning.jpg" style="width: 600px;" />
+]
+
+---
+# Done. Yes really.
+
+---
+# Done. Yes really.
+
+### Rest is just (a lot of) refinements around:
+
+- availability of training/labeled/historical data (supervised vs semi-supervised vs unsupervised)
+- inputs/outputs: text, images, videos, time series, tabular data
+- network architecture
+- algorithms used to train/learn the parameters of your model
+
+### High level libraries (e.g. Keras, FastAI) do these refinements for you
+
+---
+# Friday
+
+.center[
+<img src="images/slides_EPFM.png" style="width: 500px;" />
+]
+
+.center[ <small>Twitter: <a target="_blank" rel="noopener noreferrer"
+    href="https://twitter.com/ChrCoello">@ChrCoello<a /></small> ]
+
+
+</textarea>
+  <style TYPE="text/css">
+    code.has-jax {
+      font: inherit;
+      font-size: 100%;
+      background: inherit;
+      border: inherit;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+    });
+    MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+        });
+        </script>
+
+  <!-- <script type="text/javascript" src="/home/collion/Programs/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+  <script src="remark.min.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+    var slideshow = remark.create({
+      highlightStyle: 'github',
+      highlightSpans: true,
+      highlightLines: true
+    });
+  </script>
+</body>
+
+</html>
