@@ -85,9 +85,13 @@ Christopher Coello, data shepherd
 
 - Natural images of objects are highly structured
 
-- Example of random images
+- Example of random image
+.center[
+<img src="images/random_image_01.png" style="width: 200px;"/>
+<img src="images/random_image_02.png" style="width: 200px;"/>
+<img src="images/tractor_gs_02.jpg" style="height: 200px;width: 200px;" />]
 
-- Learn to recognize these structure
+- Learn to recognize the structure in natural images
 
 ---
 # Supervised learning tasks
@@ -115,23 +119,55 @@ Christopher Coello, data shepherd
 ]
 
 ---
-
 # Learning algorithms
 
 - Estimate the label $y$ knowing the input $x$
-- x .left[
-<img src="images/tractor_cl_3.jpg" style="width: 50px;" />
-] -> what is this object ? $y$=tractor
-
----
-
-
-# Typical ML system
-
 .center[
-<img src="images/cat_model_link_math.svg" style="width: 770px;" />
+<img src="images/sup_learn_01.png" style="width: 500px;" />
 ]
 
+--
+- Use the examples to learn
+.center[
+<img src="images/sup_learn_03.png" style="width: 500px;" />
+] 
+
+---
+# Learning algorithms
+
+- Use the examples to learn
+.center[
+<img src="images/sup_learn_04.png" style="width: 500px;" />
+] 
+
+- **Supervised learning**: optimise parameters to make as little error on examples as possible $\tilde{y_i}\approx y_i$
+
+- ** Generalisation ** if minimum error on unknown example $x$, $\tilde{y} \approx y$ 
+
+- Algorithms $\longleftrightarrow$ Mathematics
+---
+# Labels ?
+
+- Getting labels is expensive
+- ** Unsupervised learning ** 
+.center[
+<img src="images/unsup_learn.png" style="width: 600px;" />
+] 
+- Does not work in high dimension
+
+---
+# Curse of Dimensionality
+
+- $f(x)$ can be approximated from examples $(x\_i,f(x\_i))\_{i \leq n}$ if **there are close examples** and if $f$ is regular.
+--
+
+- To cover $[0, 1]^d$ at a distance 0.1 we need $10^d$ examples
+
+--
+.center[
+<img src="images/curse_of_dim.svg" style="width: 500px;" />
+] 
+- $10^{80}$ atoms in the universe
 
 ---
 # Linear Regression Models

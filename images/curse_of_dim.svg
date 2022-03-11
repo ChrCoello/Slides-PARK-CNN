@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="17.799837mm"
+   height="12.349919mm"
+   viewBox="0 0 17.799838 12.349919"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="curse_of_dim.svg"
+   inkscape:export-filename="C:\code\Slides-PARK-CNN\images\curse_of_dim.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     width="10mm"
+     inkscape:zoom="18.913358"
+     inkscape:cx="25.167398"
+     inkscape:cy="23.026054"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0.5"
+     fit-margin-left="0.5"
+     fit-margin-right="0.5"
+     fit-margin-bottom="0.5">
+    <inkscape:grid
+       type="xygrid"
+       id="grid846"
+       units="mm"
+       spacingx="0.099999997"
+       spacingy="0.099999997"
+       originx="6.9242713"
+       originy="1.1440834" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2001" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path2016" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1992" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path2016-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2001-6" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(6.9242713,1.1440837)">
+    <g
+       id="g1205">
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904"
+         cx="1.05"
+         cy="1.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9"
+         cx="1.05"
+         cy="2.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5"
+         cx="1.05"
+         cy="3.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5"
+         cx="1.05"
+         cy="4.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-7"
+         cx="1.05"
+         cy="5.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-90"
+         cx="1.05"
+         cy="6.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-6"
+         cx="1.05"
+         cy="7.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-8"
+         cx="1.05"
+         cy="8.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-72"
+         cx="1.05"
+         cy="9.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+    </g>
+    <g
+       id="g1205-9"
+       transform="translate(1)">
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-8"
+         cx="1.05"
+         cy="1.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-61"
+         cx="1.05"
+         cy="2.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-0"
+         cx="1.05"
+         cy="3.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-6"
+         cx="1.05"
+         cy="4.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-7-6"
+         cx="1.05"
+         cy="5.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-90-3"
+         cx="1.05"
+         cy="6.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-6-9"
+         cx="1.05"
+         cy="7.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-8-5"
+         cx="1.05"
+         cy="8.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-72-4"
+         cx="1.05"
+         cy="9.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+    </g>
+    <g
+       id="g1205-4"
+       transform="translate(2)">
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-7"
+         cx="1.05"
+         cy="1.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-7"
+         cx="1.05"
+         cy="2.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-03"
+         cx="1.05"
+         cy="3.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-0"
+         cx="1.05"
+         cy="4.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-7-68"
+         cx="1.05"
+         cy="5.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-90-6"
+         cx="1.05"
+         cy="6.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-6-8"
+         cx="1.05"
+         cy="7.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-8-4"
+         cx="1.05"
+         cy="8.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-72-3"
+         cx="1.05"
+         cy="9.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+    </g>
+    <g
+       id="g1205-9-1"
+       transform="translate(3)">
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-8-2"
+         cx="1.05"
+         cy="1.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-61-5"
+         cx="1.05"
+         cy="2.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-0-0"
+         cx="1.05"
+         cy="3.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-6-5"
+         cx="1.05"
+         cy="4.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-7-6-3"
+         cx="1.05"
+         cy="5.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-90-3-8"
+         cx="1.05"
+         cy="6.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-6-9-9"
+         cx="1.05"
+         cy="7.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-8-5-5"
+         cx="1.05"
+         cy="8.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-72-4-9"
+         cx="1.05"
+         cy="9.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+    </g>
+    <g
+       id="g1205-9-1-3"
+       transform="translate(4)">
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-8-2-8"
+         cx="1.05"
+         cy="1.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-61-5-6"
+         cx="1.05"
+         cy="2.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-0-0-5"
+         cx="1.05"
+         cy="3.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-6-5-4"
+         cx="1.05"
+         cy="4.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-7-6-3-3"
+         cx="1.05"
+         cy="5.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-90-3-8-9"
+         cx="1.05"
+         cy="6.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-6-9-9-1"
+         cx="1.05"
+         cy="7.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-8-5-5-3"
+         cx="1.05"
+         cy="8.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-72-4-9-6"
+         cx="1.05"
+         cy="9.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+    </g>
+    <g
+       id="g1205-46"
+       transform="translate(5)">
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-1"
+         cx="1.05"
+         cy="1.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-4"
+         cx="1.05"
+         cy="2.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-89"
+         cx="1.05"
+         cy="3.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-62"
+         cx="1.05"
+         cy="4.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-7-5"
+         cx="1.05"
+         cy="5.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-90-9"
+         cx="1.05"
+         cy="6.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-6-3"
+         cx="1.05"
+         cy="7.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-8-1"
+         cx="1.05"
+         cy="8.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-72-34"
+         cx="1.05"
+         cy="9.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+    </g>
+    <g
+       id="g1205-9-4"
+       transform="translate(6)">
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-8-7"
+         cx="1.05"
+         cy="1.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-61-6"
+         cx="1.05"
+         cy="2.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-0-9"
+         cx="1.05"
+         cy="3.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-6-0"
+         cx="1.05"
+         cy="4.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-7-6-0"
+         cx="1.05"
+         cy="5.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-90-3-7"
+         cx="1.05"
+         cy="6.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-6-9-2"
+         cx="1.05"
+         cy="7.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-8-5-2"
+         cx="1.05"
+         cy="8.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-72-4-93"
+         cx="1.05"
+         cy="9.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+    </g>
+    <g
+       id="g1205-4-6"
+       transform="translate(7)">
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-7-7"
+         cx="1.05"
+         cy="1.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-7-8"
+         cx="1.05"
+         cy="2.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-03-4"
+         cx="1.05"
+         cy="3.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-0-1"
+         cx="1.05"
+         cy="4.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-7-68-3"
+         cx="1.05"
+         cy="5.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-90-6-2"
+         cx="1.05"
+         cy="6.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-6-8-2"
+         cx="1.05"
+         cy="7.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-8-4-6"
+         cx="1.05"
+         cy="8.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-72-3-5"
+         cx="1.05"
+         cy="9.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+    </g>
+    <g
+       id="g1205-9-1-2"
+       transform="translate(8)">
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-8-2-7"
+         cx="1.05"
+         cy="1.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-61-5-2"
+         cx="1.05"
+         cy="2.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-0-0-7"
+         cx="1.05"
+         cy="3.05"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-6-5-0"
+         cx="1.05"
+         cy="4.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-7-6-3-7"
+         cx="1.05"
+         cy="5.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-90-3-8-0"
+         cx="1.05"
+         cy="6.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-6-9-9-0"
+         cx="1.05"
+         cy="7.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-8-5-5-6"
+         cx="1.05"
+         cy="8.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.0333333"
+         id="path904-9-5-5-72-4-9-1"
+         cx="1.05"
+         cy="9.0500002"
+         rx="0.033333335"
+         ry="0.033333331" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.0474342;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow1Mend)"
+       d="M 0.50000002,-1e-7 H 9.4999998"
+       id="path1933" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.0474342;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart-3);marker-end:url(#Arrow1Mend-9)"
+       d="M 4.0000003e-8,0.4999999 V 9.4999996"
+       id="path1933-9" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-0.45961702"
+       y="0.40253553"
+       id="text3552"><tspan
+         sodipodi:role="line"
+         id="tspan3550"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="-0.45961702"
+         y="0.40253553">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="9.6286688"
+       y="0.45295221"
+       id="text3552-8"><tspan
+         sodipodi:role="line"
+         id="tspan3550-9"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="9.6286688"
+         y="0.45295221">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-0.4516201"
+       y="10.705835"
+       id="text3552-8-3"><tspan
+         sodipodi:role="line"
+         id="tspan3550-9-8"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="-0.4516201"
+         y="10.705835">1</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4801"
+       width="9"
+       height="9"
+       x="0.49999997"
+       y="0.49999991" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-6.4973073"
+       y="5.7951961"
+       id="text5984"><tspan
+         sodipodi:role="line"
+         id="tspan5982"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="-6.4973073"
+         y="5.7951961">ex: 10<tspan
+   style="font-size:1.05833px;baseline-shift:super"
+   id="tspan10290">2</tspan></tspan></text>
+  </g>
+</svg>
