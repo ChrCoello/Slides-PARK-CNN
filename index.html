@@ -40,13 +40,13 @@ class: left, middle
 ---
 class: center, middle
 
-# The unreasonable effectiveness of CNNs(1)
+# The unreasonable effectiveness of CNNs *
 
 Christopher Coello, data shepherd
 
-(1) ref to [Karpathy's blog entry](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) from 2015
+(*) ref to [Karpathy's blog entry](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) from 2015
 
-[Slides avalaible online](https://github.com/ChrCoello/Slides-PARK-CNN)
+Slides avalaible: [https://github.com/ChrCoello/Slides-PARK-CNN](https://github.com/ChrCoello/Slides-PARK-CNN)
 
 ---
 # Path
@@ -129,7 +129,7 @@ Christopher Coello, data shepherd
 --
 - Use the examples to learn
 .center[
-<img src="images/sup_learn_03.png" style="width: 500px;" />
+<img src="images/sup_learn_04.png" style="width: 500px;" />
 ] 
 
 ---
@@ -161,13 +161,17 @@ Christopher Coello, data shepherd
 - Algorithms $\longleftrightarrow$ Mathematics
 
 ---
-# Labels ?
+# Let's get labels
 
 - Getting labels is expensive
+--
+
 - ** Unsupervised learning ** 
 .center[
 <img src="images/unsup_learn.png" style="width: 600px;" />
 ] 
+
+--
 - Does not work in high dimension
 
 ---
@@ -177,130 +181,35 @@ Christopher Coello, data shepherd
 --
 
 - To cover $[0, 1]^d$ at a distance 0.1 we need $10^d$ examples
-
---
 .center[
 <img src="images/curse_of_dim.svg" style="width: 400px;" />
 ] 
+
+--
 - $10^{80}$ atoms in the universe
 - distance btw unseen image and examples is **ALWAYS** very large
 
 ---
-# Linearize
+# Cluster and linearize
 
 .center[
 <img src="images/kernel_learning_00.svg" style="width: 600px;" />
 ] 
 
 - change of variable:
-$x=(x_1,x_2,x_3,...,x_d) \rightarrow \phi (x) = (v_1,v_2,v_3,...,v_d)$
+$x=(x_1,x_2,x_3,...,x_d) \rightarrow \phi (x) = (v_1,v_2,v_3,...,v_c)$
 
-- how and when is possible to find such a $\phi$ ?
- - apriori information
- - learned
-
----
-# Linear Regression Models
-
-$$
-f(X) = \beta\_0 + \sum\_{j=1}^{p} \beta\_jX\_j
-$$
-
-Inputs ($X\_j$) can be tweaked :
-- log, square, square-root,...
-- basis expansions ($X\_2=X\_1^3$, $X\_3=X\_1 \times X\_2$ )
-- dummy coding of qualitative inputs (true/false, week, month)
-
-No matter the source of the $X\_j$ , the model is linear in the parameters.
-
----
-# Typical ML system
-
-.center[
-<img src="images/cat_model_link_math_supervised.svg" style="width: 770px;" />
-]
-<br />
-### Finding model ($f$)
-- often called training
-- choosing $\beta\_i$ so that $f(X)$ and $Y$ are the same as often as possible
-
----
-# Linear Regression Models
-.center[
-<img src="images/linear_regression.PNG" style="width: 570px;" />
-]
-
----
-# Nearest Neighbour Model
-.center[
-<img src="images/near_neigh_1.PNG" style="width: 400px;" />
-]
-
-<small>_Use this description (model) in order to predict the output given a new set of explanatory variables_</small>
----
-# Typical ML system
-
-.center[
-<img src="images/cat_model_link_math_supervised.svg" style="width: 770px;" />
-]
-<br />
-### Finding model ($f$)
-- often called training
-- choosing $\beta\_i$ so that $f(X)$ and $Y$ are the same as often as possible **BUT NOT QUITE**
-
----
-# Nearest Neighbour Model
-.center[
-<img src="images/near_neigh_15.PNG" style="width: 570px;" />
-]
-
----
-# Deep Learning system
-
-.center[
-<img src="images/image_dl_without_text.png" style="width: 700px;" />
-]
-<br />
 --
-.center[
-<img src="images/
-Sound_City_Setagaya_DSC_1931.jpg" style="width: 450px;" />
-]
-
----
-# Deep Learning system
-
-.center[
-<img src="images/image_dl_without_text.png" style="width: 700px;" />
-]
-<br />
-
-.center[
-<img src="images/resnet_152.png" style="width: 450px;" />
-]
-.center[**Resnet-50** (#params: 1.7M)<br />
-<small>_Adapted from https://arxiv.org/abs/1512.03385_</small>]
-
----
-# Choosing an ML algorithm
-
-Explore the relevant mappings between inputs and output(s)
-.center[ $X \implies f(X)$ ]<br />
-.center[
-<img src="images/all_models.png" style="width: 400px;" />
-]
-
----
-class: middle, centers
-
-# Fundamental explanation of Deep Learning
+- how and when is possible to find such a $\phi$ ?
+ - apriori information: two/four large circles, number of all green pixels
+ - learned
 
 ---
 # Artificial Neuron
 
 .center[
 <img src="images/artificial_neuron.svg" style="width: 400px;" /><br />
-McCulloch & Pitts (1943): inspiration from brain, but simplistic model with no will to be close to biology
+McCulloch & Pitts (1943): inspiration from biological neurons, but simplistic model with no will to be close to biology
 ]
 --
 .center[
@@ -312,107 +221,38 @@ By <a href="https://en.wikipedia.org/wiki/User:Quasar_Jarosz" class="extiw"
   href="https://commons.wikimedia.org/w/index.php?curid=7616130">Link</a>
 ]
 
----
-# Artificial Neuron
-
-.center[
-<img src="images/artificial_neuron.svg" style="width: 400px;" />
-]
-
-.center[
-$z(\mathbf{x}) = \mathbf{w}^T \mathbf{x} + b$
-
-$f(\mathbf{x}) = g(\mathbf{w}^T \mathbf{x} + b)$
-]
-<br />
-
-<table>
-  <tr>
-    <th scope="col" align="right">$\mathbf{x}, f(\mathbf{x}) \,\,$</th>
-    <td>input and output</td>
-  </tr>
-  <tr>
-    <th scope="col" align="right">$z(\mathbf{x})\,\,$</th>
-    <td>pre-activation</td>
-  <tr>
-    <th scope="col" align="right">$\mathbf{w}, b\,\,$</th>
-    <td>weights and bias</td>
-  </tr>
-  <tr>
-    <th scope="col" align="right">$g\,\,$</th>
-    <td>activation function</td>
-  </tr>
-</table>
 
 ---
-# Layer of Neurons
+# (Deep) neural network
 
 .center[
-<img src="images/neural_network.svg" style="width: 400px;" />
+<img src="images/neural_network_simple_01.svg" style="width: 700px;" />
 ]
-
-<br />
-.center[
-$\mathbf{f}(\mathbf{x}) = g(\textbf{z(x)}) = g(\mathbf{W} \mathbf{x} + \mathbf{b})$
-]
-<br />
-- $\mathbf{W}, \mathbf{b}\,\,$ now matrix and vector
 
 ---
-# Universal approximation theorem
+# (Deep) neural network
 
 .center[
-<img src="images/neural_network.svg" style="width: 200px;" />
+<img src="images/neural_network_simple_02.svg" style="width: 700px;" />
 ]
-<br /><br />
-If you have big enough weight matrices and enough of them ($n$ and $k$ large), the above network can solve any
-arbitrarily complex mathematical function to any arbitrarily high level of accuracy...<br /> <br />
---
-...assuming that you can **train the parameters** both in terms of **time** and **data availability** (
-<a target="_blank" rel="noopener noreferrer" href=https://en.wikipedia.org/wiki/Universal_approximation_theorem>
-  mathematical formulation</a> ).
 
----
-# Key limitations
-
-...assuming that you can **train the parameters** both in terms of **time** and **data availability**
-
-- **train the parameters** $\rightarrow$ backpropagation, regularisation
+- Learning: optimise the parameters ($w\_{i,j}$) to minimize errors on examples
+- Tens of millions of parameters: more parameters than the initial dimension of our data
 --
 
-- **time** $\rightarrow$ GPUs
---
-
-- **data availability** $\rightarrow$ transfer learning
-
-.center[
-<img src="images/transfer_learning.jpg" style="width: 600px;" />
-]
+- **A priori information**: in the architecture of the network
 
 ---
-# Done. Yes really.
+
+# Convolutional neural network
 
 ---
-# Done. Yes really.
-
-### Rest is just (a lot of) refinements around:
-
-- availability of training/labeled/historical data (supervised vs semi-supervised vs unsupervised)
-- inputs/outputs: text, images, videos, time series, tabular data
-- network architecture
-- algorithms used to train/learn the parameters of your model
-
-### High level libraries (e.g. Keras, FastAI) do these refinements for you
-
----
-# Friday
-
-.center[
-<img src="images/slides_EPFM.png" style="width: 500px;" />
-]
+# Now to the applications !
 
 .center[ <small>Twitter: <a target="_blank" rel="noopener noreferrer"
     href="https://twitter.com/ChrCoello">@ChrCoello<a /></small> ]
+.center[ <small>LinkedIn: <a target="_blank" rel="noopener noreferrer"
+    href="https://www.linkedin.com/in/chrcoello/">@ChrCoello<a /></small> ]
 
 
 </textarea>
