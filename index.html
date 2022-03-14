@@ -141,10 +141,25 @@ Christopher Coello, data shepherd
 ] 
 
 - **Supervised learning**: optimise parameters to make as little error on examples as possible $\tilde{y_i}\approx y_i$
+.center[
+<img src="images/sounds.jpg" style="width: 300px;" />
+]
+
+
+---
+# Learning algorithms
+
+- Use the examples to learn
+.center[<img src="images/sup_learn_04.png" style="width: 500px;" />]
+
+- **Supervised learning**: optimise parameters to make as little error on examples as possible $\tilde{y_i}\approx y_i$
 
 - ** Generalisation ** if minimum error on unknown example $x$, $\tilde{y} \approx y$ 
 
+--
+
 - Algorithms $\longleftrightarrow$ Mathematics
+
 ---
 # Labels ?
 
@@ -165,9 +180,24 @@ Christopher Coello, data shepherd
 
 --
 .center[
-<img src="images/curse_of_dim.svg" style="width: 500px;" />
+<img src="images/curse_of_dim.svg" style="width: 400px;" />
 ] 
 - $10^{80}$ atoms in the universe
+- distance btw unseen image and examples is **ALWAYS** very large
+
+---
+# Linearize
+
+.center[
+<img src="images/kernel_learning_00.svg" style="width: 600px;" />
+] 
+
+- change of variable:
+$x=(x_1,x_2,x_3,...,x_d) \rightarrow \phi (x) = (v_1,v_2,v_3,...,v_d)$
+
+- how and when is possible to find such a $\phi$ ?
+ - apriori information
+ - learned
 
 ---
 # Linear Regression Models
